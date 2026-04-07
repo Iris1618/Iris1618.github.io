@@ -8,7 +8,7 @@ redirect_from:
 ---
 <style>
 .about-hero {
-  background: linear-gradient(135deg, #fafbff 0%, #f4f7fb 100%);
+  background: linear-gradient(135deg, #f4f8ff 0%, #eefcf8 100%)；
   border: 1px solid #e5e9f0;
   border-radius: 20px;
   padding: 1.6rem 1.8rem;
@@ -109,24 +109,12 @@ redirect_from:
 
   <div class="fact-tags">
     <span class="fact-tag">Expected Graduation: Jun 2028</span>
-    <span class="fact-tag">cGPA: 3.94/4.30</span>
     <span class="fact-tag">Single-cell Transcriptomics</span>
     <span class="fact-tag">Spatial Transcriptomics</span>
     <span class="fact-tag">DNA Nanotechnology</span>
   </div>
 
   <div class="scroll-cue">↓</div>
-</div>
-
-<div class="about-section">
-  <h2>Research Focus</h2>
-  <p>
-    My current interests include <strong>single-cell transcriptomics</strong>,
-    <strong>spatial transcriptomics</strong>, <strong>DNA nanotechnology</strong>,
-    and <strong>translational bioinformatics</strong>. I am particularly interested
-    in using computational approaches to investigate cellular heterogeneity, tissue
-    organization, and disease-associated biological processes.
-  </p>
 </div>
 
 <div class="about-section">
