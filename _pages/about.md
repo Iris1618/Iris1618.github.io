@@ -154,7 +154,6 @@ redirect_from:
 <div class="about-section">
   <h2>This Website</h2>
   <p>
-    This website presents my academic background, research experiences, selected
-    projects, and CV.
+    This website presents my academic background, research experiences，Blog, CV and Contact information.
   </p>
 </div>
