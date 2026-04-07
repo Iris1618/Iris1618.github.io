@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Dongting Zhai / Academic Website"
+title                    : "Dongting Zhai"
 title_separator          : "-"
 name                     : &name "Dongting Zhai"
 description              : &description " Personal academic website showcasing my research, projects, skills, awards, and CV in biomedical informatics."   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,13 +24,13 @@ repository               : "Iris1618/Iris1618.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "翟董婷 Dongting Zhai"
+  pronouns         : # example "she/her" 
+  bio              : "Biomedical Informatics undergraduate (Class of 2028)"
+  location         : "Zhejiang, China"
+  employer         : "Zhejiang University-University of Edinburgh Institute (ZJE)"
+  uri              : "https://Iris1618.github.io"
+  email            : "dongting.24@intl.zju.edu.cn" 
 
   # Academic websites
   academia         : # URL
