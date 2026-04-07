@@ -8,7 +8,7 @@ redirect_from:
 ---
 <style>
 .about-hero {
-  background: linear-gradient(135deg, #edf4ff 0%, #e8fbf5 100%);
+  background: linear-gradient(135deg, #fafbff 0%, #f4f7fb 100%);
   border: 1px solid #e5e9f0;
   border-radius: 20px;
   padding: 1.6rem 1.8rem;
@@ -144,7 +144,7 @@ redirect_from:
   <p>
     In addition to research, I value careful communication, interdisciplinary
     collaboration, and continuous learning. Outside academics, I enjoy
-    <strong>playing the pipa</strong>, exploring <strong>basic guitar</strong>,
+    <strong>playing the pipa</strong>, exploring <strong>basic guitar skills</strong>,
     <strong>watching musicals</strong>, and <strong>reading novels</strong>.
     I believe these interests help me maintain both curiosity and balance in
     long-term academic work.
