@@ -8,7 +8,7 @@ redirect_from:
 ---
 <style>
 .about-hero {
-  background: linear-gradient(135deg, #f4f8ff 0%, #eefcf8 100%)；
+  background: linear-gradient(135deg, #edf4ff 0%, #e8fbf5 100%);
   border: 1px solid #e5e9f0;
   border-radius: 20px;
   padding: 1.6rem 1.8rem;
