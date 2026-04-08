@@ -41,7 +41,12 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+.greedy-nav .site-title {
+  margin-right: 4.5rem;
+  padding-right: 1.8rem;
+  border-right: 1px solid #d9dde3;
+}
+
 .greedy-nav .visible-links {
-  margin-left: 5rem !important;
-  padding-left: 2rem;
+  margin-left: 0 !important;
 }
