@@ -14,6 +14,7 @@ redirect_from:
   padding: 1.6rem 1.8rem;
   margin-bottom: 2rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  color: #4b5563;
 }
 
 .about-kicker {
@@ -28,12 +29,18 @@ redirect_from:
   margin: 0 0 0.7rem 0;
   font-size: 2rem;
   line-height: 1.2;
+  color: #454b52;
 }
 
 .about-lead {
   font-size: 1.08rem;
   line-height: 1.8;
   margin-bottom: 1rem;
+  color: #4b5563;
+}
+
+.about-lead strong {
+  color: #454b52;
 }
 
 .fact-tags {
