@@ -108,59 +108,58 @@ redirect_from:
   <p class="about-kicker">Biomedical Informatics · Class of 2028</p>
   <h1>Hello, I'm Dongting Zhai.</h1>
   <p class="about-lead">
-    I am an undergraduate student in <strong>Biomedical Informatics</strong> at the
+    I am a third-year undergraduate in <strong>Biomedical Informatics</strong> at the
     <strong>Zhejiang University–University of Edinburgh Institute (ZJE)</strong>,
-    with academic interests at the intersection of <strong>biology</strong>,
-    <strong>medicine</strong>, and <strong>computation</strong>.
+    expecting to graduate in June 2028.
+  </p>
+  <p class="about-lead">
+    My research interests span <strong>neuroscience</strong> and
+    <strong>spatial transcriptomics</strong>, with a focus on how cells respond to
+    disease and injury. Through computational analysis and experimental research,
+    I am developing complementary approaches to studying cell states and their
+    tissue environments.
   </p>
 
   <div class="fact-tags">
-    <span class="fact-tag">Expected Graduation: Jun 2028</span>
-    <span class="fact-tag">Single-cell Transcriptomics</span>
+    <span class="fact-tag">Microglia &amp; Neurobiology</span>
     <span class="fact-tag">Spatial Transcriptomics</span>
-    <span class="fact-tag">DNA Nanotechnology</span>
+    <span class="fact-tag">Single-cell Analysis</span>
   </div>
 
   <div class="scroll-cue">↓</div>
 </div>
 
 <div class="about-section">
-  <h2>Current Experience</h2>
+  <h2>Research Experience</h2>
+  <h3>Microglia and injury signaling</h3>
   <p>
-    I have been involved in research training in the <strong>Wanlu Liu Lab</strong>,
-    where I participated in liver-related projects involving both
-    <strong>single-cell RNA sequencing</strong> and
-    <strong>Visium HD spatial transcriptomics</strong>. My work has included data
-    preprocessing, quality control, clustering, cell type annotation, differential
-    analysis, and the study of fibrosis-related cell populations and spatial
-    interactions.
+    In summer 2026, I joined the <strong>Rui Lin Lab</strong> at the
+    <strong>National Institute of Biological Sciences, Beijing (NIBS)</strong>.
+    I worked on projects exploring whole-brain microglial gene editing through
+    primary microglia transplantation and the role of CD39 in injury-induced ATP
+    signaling, gaining hands-on experience in cell culture, stereotaxic surgery,
+    and in vivo two-photon imaging.
   </p>
-
+  <h3>Spatial transcriptomics in liver disease</h3>
   <p>
-    I also participated in the <strong>2025 iGEM competition</strong> as a member of the
-    <strong>iZJU-China Dry Lab / Modeling Team</strong>. In this project, I contributed
-    to the design and evaluation of a <strong>DNA origami platform</strong> using
-    <strong>cadnano</strong>, <strong>oxView</strong>, and <strong>oxDNA</strong>, while also
-    assisting with modeling tasks related to diffusion, degradation, and membrane
-    penetration behavior.
+    In the <strong>Wanlu Liu Lab</strong> at ZJE, I am investigating hepatocyte
+    zonation along the portal vein–central vein axis and spatial changes associated
+    with liver fibrosis through a university-level Student Research Training
+    Program. My work involves analyzing <strong>Visium HD</strong> data, building on
+    my earlier training in <strong>single-cell RNA-seq analysis</strong>.
+  </p>
+  <h3>DNA nanotechnology and modeling</h3>
+  <p>
+    As a member of the <strong>iZJU-China 2025 iGEM Dry Lab / Modeling Team</strong>,
+    I contributed to DNA origami design and simulation for the FoCas project.
+    Our team placed third globally in the undergraduate competition.
   </p>
 </div>
 
 <div class="about-section">
   <h2>Beyond the Lab</h2>
   <p>
-    In addition to research, I value careful communication, interdisciplinary
-    collaboration, and continuous learning. Outside academics, I enjoy
-    <strong>playing the pipa</strong>, exploring <strong>basic guitar skills</strong>,
-    <strong>watching musicals</strong>, and <strong>reading novels</strong>.
-    I believe these interests help me maintain both curiosity and balance in
-    long-term academic work.
-  </p>
-</div>
-
-<div class="about-section">
-  <h2>This Website</h2>
-  <p>
-    This website presents my academic background, research experiences, Blog, CV and Contact information.
+    Outside research, I enjoy <strong>playing the pipa and guitar</strong>,
+    <strong>watching musical theatre</strong>, and <strong>reading novels</strong>.
   </p>
 </div>
