@@ -152,7 +152,8 @@ redirect_from:
   <p>
     As a member of the <strong>iZJU-China 2025 iGEM Dry Lab / Modeling Team</strong>,
     I contributed to DNA origami design and simulation for the FoCas project.
-    Our team placed third globally in the undergraduate competition.
+    Our team ranked among the <strong>global top three</strong> in the undergraduate
+    competition and received a <strong>Gold Medal</strong>.
   </p>
 </div>
 
@@ -161,5 +162,6 @@ redirect_from:
   <p>
     Outside research, I enjoy <strong>playing the pipa and guitar</strong>,
     <strong>watching musical theatre</strong>, and <strong>reading novels</strong>.
+    I am also currently <strong>learning French</strong>.
   </p>
 </div>
