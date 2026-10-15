@@ -10,9 +10,40 @@ author_profile: true
 Undergraduate in Biomedical Informatics  
 **Sept. 2024 – Present**
 
-- Year 2 undergraduate student
+- Year 3 undergraduate student
 - Expected graduation: **June 2028**
-- cGPA: **3.94 / 4.30**
+- cGPA: **3.95 / 4.30**
+
+## Skills and Languages
+
+**Languages**
+- English (IELTS 7.5)
+- Mandarin Chinese (native)
+
+**Programming & Data Analysis**
+- Python
+- R
+- SQL
+- Java
+- Basic HTML
+
+**Molecular & Cell Biology**
+- PCR
+- Primary cell culture
+- AAV-mediated gene editing
+- Immunofluorescence staining
+
+**Animal Experiments & Imaging**
+- Stereotaxic injection
+- Oral gavage
+- Mouse perfusion
+- Cranial window surgery
+- Two-photon microscopy
+
+**Software & Analysis Tools**
+- FlowJo and QuPath
+- Seurat and Space Ranger
+- cadnano, oxView, and oxDNA
 
 ## Relevant Coursework
 
@@ -29,16 +60,3 @@ Undergraduate in Biomedical Informatics
 - Database and Software Technology
 - Genomics and Proteomics
 - Applied Data Science
-
-## Skills and Languages
-
-**Programming & Data Analysis**
-- Python
-- R
-- SQL
-- Java
-- Basic HTML
-
-**Languages**
-- Mandarin Chinese (native)
-- English (IELTS 7.5)
