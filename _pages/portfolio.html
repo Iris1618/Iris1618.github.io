@@ -5,20 +5,87 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
-
 <style>
-.archive__item-excerpt img {
-  display: block;
-  width: 100%;
-  max-width: 520px;
-  height: auto;
-  margin-top: 0.45rem;
-  border-radius: 6px;
-  object-fit: cover;
-}
+.research-timeline{list-style:none;margin:2rem 0;padding:0}
+.research-timeline .research-event{--axis-center:166px;position:relative;display:grid;grid-template-columns:150px minmax(0,1fr);gap:32px;margin:0;padding:0 0 36px}
+.research-event::before{content:"";position:absolute;left:calc(var(--axis-center) - 2px);top:12px;bottom:-12px;width:4px;border-radius:2px;background:#c5dce4}
+.research-event:last-child::before{bottom:36px}
+.research-event::after{content:"";position:absolute;box-sizing:border-box;left:calc(var(--axis-center) - 10px);top:8px;width:20px;height:20px;border:3px solid #fff;border-radius:50%;background:#52adc3;box-shadow:0 0 0 2px #c5e2e9}
+.research-date{font-size:.82rem;line-height:1.6;color:#687983;padding:3px 12px 0 0}
+.research-date strong{display:block;color:#455b66;font-size:.94rem}
+.research-card{border:1px solid #e0e8ec;border-radius:12px;padding:22px 25px;background:var(--global-bg-color,#fff)}
+.research-card h2{border:0;margin:0 0 10px;padding:0;font-size:1.18rem;line-height:1.45}
+.research-card h2 a{text-decoration:none}.research-card h2 a:hover{text-decoration:underline}
+.research-role{margin:0 0 12px;font-size:.84rem;color:#687983;line-height:1.6}
+.research-card .research-summary{margin:0;font-size:.9rem;line-height:1.75}
+.research-stages{margin:16px 0 0;padding-top:12px;border-top:1px solid #e7edef;display:grid;gap:9px;font-size:.8rem;line-height:1.6;color:#687983}
+.research-stages strong{color:#455b66}
+.research-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:15px}
+.research-tags span{font-size:.69rem;line-height:1.5;border:1px solid #dfe9ed;border-radius:999px;padding:4px 9px;color:#597481}
+.research-timeline.is-animated .research-date,.research-timeline.is-animated .research-card{transition:opacity .65s ease,transform .65s cubic-bezier(.22,1,.36,1)}
+.research-timeline.is-animated .research-event::after{transition:opacity .45s ease,transform .5s cubic-bezier(.22,1,.36,1);transform-origin:center}
+.research-timeline.is-animated .research-event:not(.is-visible) .research-date,.research-timeline.is-animated .research-event:not(.is-visible) .research-card{opacity:0;transform:translateY(24px)}
+.research-timeline.is-animated .research-event:not(.is-visible)::after{opacity:0;transform:scale(.35)}
+.research-timeline.is-animated .research-card{transition-delay:.08s}
+@media(prefers-reduced-motion:reduce){.research-timeline.is-animated .research-event .research-date,.research-timeline.is-animated .research-event .research-card,.research-timeline.is-animated .research-event::after{opacity:1;transform:none;transition:none}}
+@media(max-width:700px){.research-timeline .research-event{--axis-center:6px;grid-template-columns:1fr;gap:10px;padding-left:27px;padding-bottom:28px}.research-event::before{top:12px;bottom:-12px}.research-event:last-child::before{bottom:28px}.research-date{padding:0;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.research-card{padding:18px}}
 </style>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<ol class="research-timeline" aria-label="Research experience timeline, most recent first">
+  <li class="research-event">
+    <div class="research-date"><strong>2026</strong>Jun – Aug</div>
+    <article class="research-card">
+      <h2><a href="{{ '/portfolio/00-nibs-microglia/' | relative_url }}">Microglia and Injury Signaling</a></h2>
+      <p class="research-role">Summer Research Intern · Rui Lin Lab<br>National Institute of Biological Sciences, Beijing (NIBS)</p>
+      <p class="research-summary">Explored primary microglia transplantation and CD39 regulation of injury-induced ATP signaling, combining cell culture, gene editing, tissue analysis, and in vivo two-photon imaging.</p>
+      <div class="research-tags"><span>Microglia</span><span>Gene Editing</span><span>Two-photon Imaging</span></div>
+    </article>
+  </li>
+  <li class="research-event">
+    <div class="research-date"><strong>2025 – Present</strong>Jun 2025 – Present</div>
+    <article class="research-card">
+      <h2><a href="{{ '/portfolio/01-liver-transcriptomics/' | relative_url }}">Liver-Related Single-Cell and Spatial Transcriptomics</a></h2>
+      <p class="research-role">Wanlu Liu Lab<br>Zhejiang University–University of Edinburgh Institute (ZJE)</p>
+      <p class="research-summary">Research training in liver single-cell analysis, followed by a university-level SRTP project investigating hepatocyte zonation and spatial changes in liver fibrosis using Visium HD.</p>
+      <div class="research-stages">
+        <div><strong>Apr 2026 – Present</strong><br>Student Research Training Program · Spatial Transcriptomics</div>
+        <div><strong>Jun 2025 – Mar 2026</strong><br>Undergraduate Research Trainee · Single-Cell Transcriptomics</div>
+      </div>
+      <div class="research-tags"><span>Single-cell Analysis</span><span>Visium HD</span><span>Liver Fibrosis</span></div>
+    </article>
+  </li>
+  <li class="research-event">
+    <div class="research-date"><strong>2025</strong>Apr – Nov</div>
+    <article class="research-card">
+      <h2><a href="{{ '/portfolio/02-igem-dry-lab/' | relative_url }}">FoCas DNA Origami Platform · iGEM 2025</a></h2>
+      <p class="research-role">Dry Lab / Modeling Team Member · iZJU-China</p>
+      <p class="research-summary">Contributed to DNA origami design and simulation using cadnano, oxView, and oxDNA. Our team ranked among the global top three in the undergraduate competition and received a Gold Medal.</p>
+      <div class="research-tags"><span>DNA Nanotechnology</span><span>Modeling</span><span>Global Top 3 · Gold Medal</span></div>
+    </article>
+  </li>
+</ol>
+<script>
+(function () {
+  var timeline = document.querySelector('.research-timeline');
+  if (!timeline || !('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var events = timeline.querySelectorAll('.research-event');
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+      } else if (entry.intersectionRatio === 0) {
+        entry.target.classList.remove('is-visible');
+      }
+    });
+  }, {threshold: [0, 0.12], rootMargin: '0px 0px -40px 0px'});
+  timeline.classList.add('is-animated');
+  requestAnimationFrame(function () {
+    requestAnimationFrame(function () {
+      events.forEach(function (event) { observer.observe(event); });
+    });
+  });
+  window.addEventListener('pageshow', function (event) {
+    if (event.persisted) events.forEach(function (item) { item.classList.add('is-visible'); });
+  });
+}());
+</script>
