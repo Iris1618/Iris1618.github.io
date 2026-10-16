@@ -1,0 +1,82 @@
+---
+title: "Contact"
+permalink: /contact/
+author_profile: true
+---
+
+<style>
+.contact-page {max-width:980px;}
+.contact-page * {box-sizing:border-box;}
+.contact-page .contact-intro {margin:0 0 28px;}
+.contact-page .contact-intro h2 {margin:0 0 10px;border:0;padding:0;font-size:1.9rem;letter-spacing:-.025em;}
+.contact-page .contact-intro p {margin:0;max-width:650px;line-height:1.8;color:#697680;font-size:1rem;}
+.contact-primary {padding:30px;border:1px solid #d8e8ed;border-radius:16px;background:linear-gradient(125deg,#edf8fb,#f7fafc);color:#42525e;}
+.contact-page .contact-icon {display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid #d9e8ee;border-radius:12px;color:#459bb1;background:#fff;}
+.contact-page svg {width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+.contact-label {font-size:.73rem;letter-spacing:.12em;text-transform:uppercase;color:#65818e;margin:18px 0 8px;}
+.contact-page .contact-address {display:block;font-size:clamp(1rem,2vw,1.45rem);font-weight:600;line-height:1.5;color:inherit;text-decoration:none;overflow-wrap:anywhere;}
+.contact-page .contact-address:hover {text-decoration:underline;}
+.contact-actions {display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:24px;}
+.contact-page .contact-button {display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 19px;border:1px solid #459fb5;border-radius:8px;background:#459fb5;color:#fff;font:inherit;font-size:.86rem;font-weight:600;line-height:1.4;text-decoration:none;cursor:pointer;transition:background .2s;}
+.contact-page .contact-button:hover {background:#35869a;}
+.contact-page .contact-button--secondary {background:transparent;color:#487483;border-color:#c4dce4;}
+.contact-page .contact-button--secondary:hover {background:#e3f1f5;}
+.contact-page :focus-visible {outline:3px solid #5cb5cf;outline-offset:4px;}
+.contact-copy-status {font-size:.78rem;color:#487483;}
+.contact-grid {display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px;}
+.contact-small {border:1px solid #e1e8ed;border-radius:13px;padding:24px;}
+.contact-small .contact-label {margin-top:16px;}
+.contact-small .contact-address {font-size:1.02rem;}
+.contact-small .contact-link {display:inline-block;margin-top:18px;font-size:.84rem;color:#459bb1;text-decoration:none;font-weight:600;}
+.contact-small .contact-link:hover {text-decoration:underline;}
+.contact-footer {display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;border-top:1px solid #e5ebee;margin-top:30px;padding-top:18px;font-size:.8rem;color:#78858e;}
+.contact-footer a {color:#459bb1;text-decoration:none;}
+@media(max-width:650px){.contact-grid{grid-template-columns:1fr}.contact-primary{padding:24px}.contact-small{padding:22px}.contact-page .contact-intro h2{font-size:1.65rem}}
+</style>
+
+<div class="contact-page">
+  <div class="contact-intro">
+    <h2>Get in touch</h2>
+    <p>Feel free to reach out with questions about my work, or simply to say hello.</p>
+  </div>
+  <section class="contact-primary" aria-label="Primary email">
+    <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 6 9 7 9-7"></path></svg></span>
+    <div class="contact-label">Primary email · Zhejiang University</div>
+    <a class="contact-address" href="mailto:dongting.24@intl.zju.edu.cn">dongting.24@intl.zju.edu.cn</a>
+    <div class="contact-actions">
+      <a class="contact-button" href="mailto:dongting.24@intl.zju.edu.cn">Email me ↗</a>
+      <button class="contact-button contact-button--secondary" type="button" id="contact-copy">Copy address</button>
+      <span class="contact-copy-status" id="contact-copy-status" role="status" aria-live="polite"></span>
+    </div>
+  </section>
+  <div class="contact-grid">
+    <section class="contact-small" aria-label="Alternative email">
+      <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 6 9 7 9-7"></path></svg></span>
+      <div class="contact-label">Alternative email</div>
+      <a class="contact-address" href="mailto:Irissssss06@outlook.com">Irissssss06@outlook.com</a>
+      <a class="contact-link" href="mailto:Irissssss06@outlook.com">Send an email ↗</a>
+    </section>
+    <section class="contact-small" aria-label="GitHub">
+      <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"></path></svg></span>
+      <div class="contact-label">GitHub</div>
+      <a class="contact-address" href="https://github.com/Iris1618">Iris1618</a>
+      <a class="contact-link" href="https://github.com/Iris1618">Visit my GitHub ↗</a>
+    </section>
+  </div>
+  <div class="contact-footer"><span>Zhejiang, China · UTC+8</span><a href="{{ '/portfolio/' | relative_url }}">View my research →</a></div>
+</div>
+<script>
+(function () {
+  var button = document.getElementById('contact-copy');
+  var status = document.getElementById('contact-copy-status');
+  button.addEventListener('click', async function () {
+    try {
+      await navigator.clipboard.writeText('dongting.24@intl.zju.edu.cn');
+      status.textContent = 'Email address copied.';
+      button.textContent = 'Copied ✓';
+    } catch (error) {
+      status.textContent = 'Please select and copy the email address above.';
+    }
+  });
+}());
+</script>
